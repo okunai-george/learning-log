@@ -168,12 +168,14 @@ pip install -r requirements.dev.txt
 uvicorn app:app --host 0.0.0.0 --port 8000
 ```
 Теперь в браузере можем увидеть наше веб-приложение, перейдя по ```http://localhost:8000/```.
-![веб-приложение](./images/screenshots/localhost8000.png)
+<img src="./images/screenshots/localhost8000.png" width="600" height="400" />
+
 Кроме того, можно протестировать с другого устройства в той же сети. Узнаем внутренний IP компьютера:
 ```bash
 hostname -I | awk '{print $1}'
 ```
 Вводим в браузере на другом устройстве ```http://<внутреннийIP>:8000/```
-![веб-приложение_с_телефона](./images/screenshots/192168019.png)
+<img src="./images/screenshots/192168019.png" width="600" height="400" />
+
 Остановите приложение, нажав Ctrl + C.
 
