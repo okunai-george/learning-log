@@ -1,0 +1,9 @@
+# Служебные файлы macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Служебные настройки Obsidian (если не хочешь их в гите)
+.obsidian/
