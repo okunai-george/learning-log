@@ -16,6 +16,8 @@
 - [x] Text-Fu
 - [x] Permissions
 - [x] Package Management
+- [] Advanced Text Fu
+- [x] Processes
 
 ---
 
@@ -24,7 +26,9 @@
 ```
 ├── README.md
 └── linux/
-    ├── labs/                    # Лабораторные работы
+    ├── labs/                 # Лабораторные работы
+    │    ├──lab_01
+    │    └──lab_02
     └── workbook/                # Конспекты по главам курса
 ```
 
@@ -32,14 +36,14 @@
 
 ## Лабораторные работы
 
-| № | Тема |
-|---|---|
-| 01 | User Management + Permissions (Fedora) Management
+| №   | Тема                                     |
+| --- | ---------------------------------------- |
+| 01  | User Management + Permissions Management |
+| 02  | Processes                                |
 
 ---
 
 ## Заметки
 
 - VM
-- Формат конспектов: Markdown, часть — экспортирована из Obsidian# george — конспекты и лабораторные работы по Linux
-
+- Формат конспектов: Markdown, часть — экспортирована из Obsidian
