@@ -13,7 +13,7 @@
 <img src="./images/micro_mono.png" width="800" height="600" />
 
 ## Методология The Twelve-Factor App
-<img src=".images/12f.png" width="800" height="600" />
+<img src="./images/12f.png" width="800" height="600" />
 
 ## Оркестрация контейнеров
 Оркестрация контейнеров &mdash; процесс автоматизации объединения контейнеров и управления ими.
