@@ -18,6 +18,9 @@
 - [x] Package Management
 - [] Advanced Text Fu
 - [x] Processes
+- [x] Devices
+- [x] Filesystem
+- [x] Init
 
 ---
 
