@@ -31,7 +31,8 @@
 └── linux/
     ├── labs/                 # Лабораторные работы
     │    ├──lab_01
-    │    └──lab_02
+    |    ├──lab_02
+    │    └──lab_03
     └── workbook/                # Конспекты по главам курса
 ```
 
@@ -43,6 +44,7 @@
 | --- | ---------------------------------------- |
 | 01  | User Management + Permissions Management |
 | 02  | Processes                                |
+| 03  | Filesystems                              |
 
 ---
 
