@@ -8,19 +8,20 @@
 
 ## Прогресс по темам
 
-Курс: [Linux Fundamentals](https://linuxbasecamp.com/tutorials)
+Курс: [Linux Fundamentals](https://linuxbasecamp.com/tutorials) + Свои источники
 
-- [x] Getting Started
-- [x] The Terminal
-- [x] User Management
-- [x] Text-Fu
-- [x] Permissions
-- [x] Package Management
-- [] Advanced Text Fu
-- [x] Processes
-- [x] Devices
-- [x] Filesystem
-- [x] Init
+0. About Linux
+1. Command Line
+2. Text Fu
+3. User Management
+4. Permissions
+5. Package Management
+6. Skipped
+7. Processes
+8. Devices
+9. Filesystem
+   - 9.1. LVM
+10. Init
 
 ---
 
