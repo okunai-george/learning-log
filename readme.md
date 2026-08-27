@@ -8,7 +8,7 @@
 
 ## Прогресс по темам
 
-Курс: [Linux Fundamentals](https://linuxbasecamp.com/tutorials) + Свои источники
+Курс: [Linux Fundamentals](https://linuxbasecamp.com/tutorials) + [Свои источники](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 0. About Linux
 1. Command Line
@@ -34,7 +34,7 @@
     │    ├──lab_01
     |    ├──lab_02
     │    └──lab_03
-    └── workbook/                # Конспекты по главам курса
+    └── workbook/                # Конспекты по изученным темам
 ```
 
 ---
@@ -51,5 +51,6 @@
 
 ## Заметки
 
-- VM
-- Формат конспектов: Markdown, часть — экспортирована из Obsidian
+- Все воркбуки — это либо мои черновики, прошедвие ии обработку, либо статьи с прикреплённых источников, сжатые ии :)
+- Все лабораторные описаны ручками
+- Формат конспектов и лабораторных: Markdown
