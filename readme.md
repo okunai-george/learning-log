@@ -21,7 +21,8 @@
 8. Devices
 9. Filesystem
    - 9.1. LVM
-10. Init
+10. Boot Process
+11. Init
 
 ---
 
