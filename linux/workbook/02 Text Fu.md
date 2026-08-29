@@ -1,3 +1,10 @@
+---
+tags:
+  - resource/linux
+  - area/study
+  - resource/notes
+source: https://linuxbasecamp.com/tutorials/advanced-text-fu
+---
 # Text-Fu
 
 Работа с текстовыми потоками, перенаправлением и обработкой текста в Linux.

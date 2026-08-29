@@ -3,6 +3,7 @@ tags:
   - area/study
   - resource/linux
   - resource/notes
+source: https://linuxbasecamp.com/tutorials/advanced-text-fu
 ---
 # Packages
 

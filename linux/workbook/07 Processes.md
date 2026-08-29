@@ -1,3 +1,11 @@
+---
+type: resource
+source: https://linuxbasecamp.com/tutorials/advanced-text-fu
+tags:
+  - resource/linux
+  - area/study
+  - resource/notes
+---
 # Processes
 
 Работа с процессами, их состояниями, сигналами и приоритетами в Linux.

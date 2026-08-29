@@ -2,11 +2,11 @@
 tags:
   - resource/linux
   - area/study
+  - resource/notes
+source: https://linuxbasecamp.com/tutorials/advanced-text-fu
 ---
 
 # Permissions
-
-Связано: [[03 User Management]] · [[Lab 01]]
 
 Права доступа к файлам и директориям в Linux: кто может читать, писать и выполнять.
 

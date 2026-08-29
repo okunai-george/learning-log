@@ -1,4 +1,11 @@
-- echo — Вывод текста (эхо)
+---
+tags:
+  - resource/linux
+  - area/study
+  - resource/notes
+source: https://linuxbasecamp.com/tutorials/advanced-text-fu
+---
++  echo — Вывод текста (эхо)
 ```Bash
 echo Hello World!
 ```

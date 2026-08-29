@@ -1,13 +1,12 @@
-
 ---
 tags:
-  - resource/linux
   - area/study
+  - resource/linux
+  - resource/notes
+source: https://linuxbasecamp.com/tutorials/advanced-text-fu
 ---
 
 Управление пользователями и группами в Linux: кто есть кто в системе и кто что может.
-
-Связано: [[04 Permissions]] · [[Lab 01]]
 
 ---
 
