@@ -1,0 +1,277 @@
+Start cpu affinity test
+test 1
+no affinity
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.59  88.39%   1.11%  10.50%  8802791.727
+     256   1.16  88.37%   1.06%  10.57%  8955242.835
+     512   2.33  88.16%   1.13%  10.70%  8956431.960
+    1024   4.74  88.40%   1.10%  10.50%  8773502.743
+    2048   9.98  88.34%   1.13%  10.53%  8335805.016
+    4096  20.78  88.40%   1.08%  10.53%  8010497.030
+
+test clock: 55s
+affinity linpack only
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.66  88.41%   1.12%  10.48%  7851740.630
+     256   1.30  88.18%   1.23%  10.59%  8010712.896
+     512   2.62  88.23%   1.21%  10.56%  7933623.949
+    1024   5.31  88.27%   1.18%  10.55%  7845442.054
+    2048  10.64  88.19%   1.23%  10.58%  7824229.372
+
+test clock: 39s
+affinity linpack + isolated core
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.67  88.42%   1.01%  10.58%  7758584.474
+     256   1.35  88.35%   1.05%  10.60%  7733714.861
+     512   2.68  88.32%   1.05%  10.63%  7774691.509
+    1024   5.42  88.36%   1.04%  10.60%  7685112.312
+    2048  10.91  88.37%   1.05%  10.58%  7630510.286
+
+test clock: 21s
+test 2
+no affinity
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.69  88.44%   1.07%  10.49%  7540012.086
+     256   1.37  88.35%   1.16%  10.50%  7577386.433
+     512   2.74  88.35%   1.15%  10.49%  7592780.131
+    1024   5.48  88.40%   1.07%  10.53%  7595988.183
+    2048  11.01  88.39%   1.09%  10.52%  7555790.013
+
+test clock: 30s
+affinity linpack only
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.70  88.40%   1.23%  10.37%  7423899.953
+     256   1.37  88.25%   1.22%  10.53%  7579459.594
+     512   2.76  88.31%   1.14%  10.55%  7544393.877
+    1024   5.53  88.32%   1.17%  10.51%  7519843.466
+    2048  11.14  88.29%   1.24%  10.47%  7466537.574
+
+test clock: 41s
+affinity linpack + isolated core
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.69  88.38%   1.05%  10.57%  7501692.446
+     256   1.40  88.45%   1.07%  10.49%  7437068.049
+     512   2.79  88.38%   1.05%  10.56%  7461465.855
+    1024   5.60  88.36%   1.06%  10.57%  7438983.383
+    2048  11.23  88.38%   1.06%  10.56%  7415188.448
+
+test clock: 23s
+test 3
+no affinity
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.70  88.31%   1.09%  10.60%  7435903.581
+     256   1.40  88.37%   1.09%  10.54%  7432044.432
+     512   2.80  88.29%   1.24%  10.47%  7414426.499
+    1024   5.56  88.30%   1.15%  10.55%  7481591.225
+    2048  11.11  88.25%   1.16%  10.59%  7493506.290
+
+test clock: 36s
+affinity linpack only
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.70  88.21%   1.22%  10.57%  7431534.137
+     256   1.38  88.26%   1.19%  10.56%  7533555.635
+     512   2.80  88.31%   1.09%  10.59%  7434175.374
+    1024   5.59  88.31%   1.12%  10.57%  7451207.358
+    2048  11.13  88.27%   1.10%  10.63%  7485118.276
+
+test clock: 32s
+affinity linpack + isolated core
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.70  88.43%   1.04%  10.53%  7389657.198
+     256   1.42  88.47%   1.05%  10.48%  7323389.598
+     512   2.83  88.43%   1.05%  10.52%  7354775.702
+    1024   5.66  88.39%   1.05%  10.56%  7350755.013
+    2048  11.38  88.46%   1.13%  10.41%  7301759.662
+
+test clock: 23s
+test 4
+no affinity
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.67  88.54%   1.11%  10.35%  7744692.464
+     256   1.31  88.27%   1.15%  10.58%  7950371.674
+     512   2.69  88.38%   1.12%  10.51%  7721579.943
+    1024   5.44  88.31%   1.17%  10.52%  7643901.172
+    2048  11.11  88.37%   1.10%  10.53%  7491842.409
+
+test clock: 50s
+affinity linpack only
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.71  88.41%   1.20%  10.38%  7332504.620
+     256   1.41  88.43%   1.23%  10.34%  7348568.641
+     512   2.81  88.38%   1.23%  10.40%  7395590.133
+    1024   5.67  88.26%   1.33%  10.41%  7336271.180
+    2048  11.35  88.30%   1.22%  10.48%  7331744.409
+
+test clock: 40s
+affinity linpack + isolated core
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.71  88.32%   1.10%  10.58%  7354926.800
+     256   1.44  88.35%   1.20%  10.45%  7226961.351
+     512   2.86  88.24%   1.20%  10.56%  7282411.573
+    1024   5.73  88.36%   1.11%  10.52%  7259514.203
+    2048  11.41  88.42%   1.05%  10.53%  7292167.400
+
+test clock: 23s
+test 5
+no affinity
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.70  88.25%   1.22%  10.53%  7390032.678
+     256   1.39  88.22%   1.18%  10.60%  7509111.943
+     512   2.82  88.26%   1.18%  10.56%  7387358.216
+    1024   5.60  88.24%   1.18%  10.58%  7436459.034
+    2048  11.28  88.29%   1.11%  10.60%  7386482.545
+
+test clock: 39s
+affinity linpack only
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.72  88.43%   1.07%  10.50%  7272386.346
+     256   1.41  88.37%   1.04%  10.59%  7391452.807
+     512   2.88  88.38%   1.21%  10.42%  7213528.155
+    1024   5.67  88.30%   1.21%  10.49%  7335451.657
+    2048  11.47  88.36%   1.19%  10.45%  7250915.697
+
+test clock: 41s
+affinity linpack + isolated core
+Memory required:  2820K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 600 X 600.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+     128   0.71  88.36%   1.05%  10.59%  7325764.242
+     256   1.42  88.25%   1.05%  10.69%  7364633.278
+     512   2.84  88.36%   1.04%  10.60%  7328071.195
+    1024   5.84  88.30%   1.03%  10.67%  7142290.700
+    2048  11.78  88.31%   1.03%  10.65%  7076744.062
+
+test clock: 23s
