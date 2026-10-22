@@ -240,7 +240,7 @@ _(User limit)_ — встроенная команда, устанавливаю
 
 # Сырые логи:
 
-- [**1 Core 1 Gb Ram**](pics/a-os_01_forkbomb1.log)
-- [**6 Core 4 Gb Ram w/o limit**](pics/a-os_01_forkbomb2.log)
-- [**6 Core 4 Gb Ram w limit 2000**](pics/a-os_01_forkbomb3.log)
-- [Result Table](pics/a-os_01_forkbomb.xlsx)
+- [**1 Core 1 Gb Ram**](raw/a-os_01_forkbomb1.log)
+- [**6 Core 4 Gb Ram w/o limit**](raw/a-os_01_forkbomb2.log)
+- [**6 Core 4 Gb Ram w limit 2000**](raw/a-os_01_forkbomb3.log)
+- [Result Table](raw/a-os_01_forkbomb.xlsx)

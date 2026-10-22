@@ -495,9 +495,9 @@ _Максимум под стресс-нагрузкой:_ Больше всег
 
 
 # Логи
-- [Log Default](pics/a-os_03_00_default.log)
-- [Log Nice](pics/a-os_03_01_nice.log)
-- [Log CPU Affinity](pics/a-os_03_02_cpu_affinity.log)
-- [Log Sched Policy](pics/a-os_03_05_sched_policy.log)
-- [Log Sched Tuning](pics/a-os_03_06_sched_tuning.log)
-- [Result Table](pics/a-os_03_Log_Data.xlsx)
+- [Log Default](raw/a-os_03_00_default.log)
+- [Log Nice](raw/a-os_03_01_nice.log)
+- [Log CPU Affinity](raw/a-os_03_02_cpu_affinity.log)
+- [Log Sched Policy](raw/a-os_03_05_sched_policy.log)
+- [Log Sched Tuning](raw/a-os_03_06_sched_tuning.log)
+- [Result Table](raw/a-os_03_Log_Data.xlsx)
