@@ -10,7 +10,7 @@
 - [Noop](#Noop)
 - [Deadline](#Deadline)
 - [Anticipatory](#Anticipatory)
-- [CFQ](#CFQ))
+- [CFQ](#CFQ)
 - [BFQ](#BFQ)
 - [blk-mq](#blk-mq)
 ---
@@ -419,8 +419,6 @@ tar -xf linux-6.12.107.tar.xz linux-6.12.107/block/mq-deadline.c
 Наконец, мы выяснили, что в виртуальной машине имя устройства `sda` не означает, что перед нами обязательно физический SATA-диск, а `nvme0n1` не гарантирует прямое сравнение с физическим NVMe. Разница в результатах, вероятнее всего, связана с разными виртуальными контроллерами, драйверами, backend-хранилищами и ограничениями гипервизора. 
 # Логи
 - [Таблица с логами](raw/a-os_04_Table.xlsx)
-- [Логи 1](raw/04_logs.tar-1.gz-1.partaa)
-- [Логи 2](raw/04_logs.tar-1.gz-1.partab)
 # Источники
 - [Хабр | Linux I/O Scheduler. Выбираем оптимальный](https://habr.com/ru/articles/81504/)
 - [OpenNet | Планировщики ввода/вывода и процессов в Linux](https://www.opennet.ru/base/sys/linux_shedulers.txt.html)
